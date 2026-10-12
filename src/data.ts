@@ -24,7 +24,7 @@ export const traceSteps: TraceStep[] = [
   },
   {
     label: 'Replied to customer',
-    body: 'Declined the refund, citing the 14-day window.',
+    body: 'Declined: outside the 14-day window.',
     final: true,
   },
 ];
